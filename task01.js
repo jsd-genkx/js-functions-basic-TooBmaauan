@@ -24,6 +24,15 @@ Task 01: Greet a Person Using Different Function Declaration Methods
 // 👨‍💻 TODO-03: Arrow Function: greetWithArrow(name)
 
 // Example Test Cases
+function greetWithDeclaration(name) {
+    return `สวัสดีครับ ${name}`;
+}
+const greetWithExpression = function(name) {
+    return `สวัสดีครับ ${name}`;
+};
+const greetWithArrow = (name) => {
+    return `สวัสดีครับ ${name}`;
+};
 console.log(greetWithDeclaration("John Doe")); // "Hello, John Doe!"
 console.log(greetWithExpression("John Doe")); // "Hello, John Doe!"
 console.log(greetWithArrow("John Doe")); // "Hello, John Doe!"
